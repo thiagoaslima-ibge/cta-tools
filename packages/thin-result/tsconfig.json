@@ -1,0 +1,7 @@
+{
+  "extends": "tsconfig/lit-library.json",
+  "compilerOptions": {
+    "outDir": "./types",
+  },
+  "include": ["src/**/*.ts"],
+}

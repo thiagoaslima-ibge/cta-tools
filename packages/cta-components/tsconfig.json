@@ -1,0 +1,9 @@
+{
+  "extends": "tsconfig/lit-library.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "outDir": "types"
+  },
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

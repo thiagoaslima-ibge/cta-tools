@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "cssnano": {
+      "preset": "advanced"
+    },
+    "autoprefixer": {}
+  }
+}

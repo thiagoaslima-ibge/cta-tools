@@ -1,0 +1,6 @@
+@import "../variables/index.css";
+
+:root .dark-mode {
+  --text-normal-color: var(--neutro-90);
+  --text-heading-color: var(--neutro-100);
+}

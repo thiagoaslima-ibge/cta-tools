@@ -1,0 +1,70 @@
+/**
+ * Os nomes das cores variam de 0 a 100, preferencialmente variando de 5 em 5
+ * Os números são baseados no valor de Lightness do espaço de cor HSLuv
+ * Números maiores indicam corem mais claras
+ * Números menos indicam cores mais escuras
+ * Preto é 0 e Branco é 100
+ * Mais informação em {@link hsluv.org}
+ */
+:root {
+  /* Azul IBGE */
+  --ibge-oficial: #004282;     /* 28.1 */
+  --institucional-15: #002569; /* 17.2 */
+  --institucional-50: #3579cc; /* 50.4 */
+  --institucional-65: #629df4; /* 64.4 */
+  --institucional-80: #92c8ff; /* 78.8 */
+
+  /* Neutros */
+  --neutro-0: #000000;   /* 0 */
+  --neutro-15: #242424;  /* 14.2 */
+  --neutro-25: #3d3d3d;  /* 25.8 */
+  --neutro-50: #767676;  /* 49.6 */
+  --neutro-80: #c5c5c5;  /* 79.5 */
+  --neutro-90: #dddddd;  /* 88.1 */
+  --neutro-95: #eeeeee;  /* 94.1 */
+  --neutro-100: #ffffff; /* 100 */
+
+  /* Azuis */
+  --azul-25: #0022b9; /* 25.7 */
+  --azul-35: #003adf; /* 34.7 */
+  --azul-50: #006dff; /* 59.7 */
+  --azul-60: #008eff; /* 58.6 */
+  --azul-75: #74bdff; /* 74.4 */
+  
+  /* Laranjas */
+  --laranja-20: #680001; /* 19.8 */
+  --laranja-30: #900000; /* 29.2 */
+  --laranja-55: #f14600; /* 55.2 */
+  --laranja-65: #ff7200; /* 64.4 */
+  --laranja-70: #ff8b00; /* 69.3 */
+
+  /* Pessego */
+  --pessego-15: #5a0004; /* 16.4 */
+  --pessego-25: #7f0023; /* 25.7 */
+  --pessego-55: #d15761; /* 53.2 */
+  --pessego-70: #fc7d84; /* 67.3 */
+  --pessego-75: #ff9da3; /* 74.8 */
+
+  /* Turquesas */
+  --turquesa-15: #002c37; /* 15.9 */
+  --turquesa-20: #004a55; /* 28.3 */
+  --turquesa-50: #00808b; /* 48.6 */
+  --turquesa-60: #16a0ab; /* 60.1 */
+  --turquesa-80: #63d7e2; /* 80.0 */
+
+  /* Verdes */
+  --verde-15: #002f00; /* 15.7 */
+  --verde-30: #004d00; /* 27.6 */
+  --verde-50: #138500; /* 48.1 */
+  --verde-60: #46a500; /* 60.1 */
+  --verde-80: #87dc00; /* 79.8 */
+
+  /* Violetas */
+  --violeta-15: #240d6a; /* 13.8 */
+  --violeta-25: #472b8b; /* 26.5 */
+  --violeta-25: #472b8b; /* 26.5 */
+  --violeta-50: #8764cd; /* 50.3 */
+  --violeta-65: #ae88f5; /* 64.3 */
+  --violeta-80: #dcb2ff; /* 78.6 */
+}
+

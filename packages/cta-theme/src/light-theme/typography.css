@@ -1,0 +1,6 @@
+@import "../variables/index.css";
+
+:root {
+  --text-normal-color: var(--neutro-25);
+  --text-heading-color: var(--neutro-0);
+}

@@ -1,0 +1,104 @@
+/**
+  A propriedade unicode-range foi extraída de 
+  https://character-table.netlify.app/brazilian-portuguese/#unicode-ranges
+*/
+
+/* light */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-300.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-300.woff2") format("woff");
+}
+
+/* light italic */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-300italic.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-300italic.woff2") format("woff");
+}
+
+/* regular */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-regular.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-regular.woff2") format("woff");
+}
+
+/* italic */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-italic.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-italic.woff2") format("woff");
+}
+
+/* medium */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-500.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-500.woff2") format("woff");
+}
+
+/* medium italic */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-500italic.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-500italic.woff2") format("woff");
+}
+
+/* bold */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-700.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-700.woff2") format("woff");
+}
+
+/* bold italic */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-700italic.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-700italic.woff2") format("woff");
+}
+
+/* black */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-900.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-900.woff2") format("woff");
+}
+
+/* black italic */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+20-5F, U+61-7A, U+7C, U+A0, U+A7, U+A9, U+C0-C3, U+C7, U+C9-CA, U+CD, U+D2-D5, U+DA, U+E0-E3, U+E7, U+E9-EA, U+ED, U+F2-F5, U+FA, U+2010-2011, U+2013-2014, U+2018-2019, U+201C-201D, U+2020-2021, U+2026, U+2030, U+2032-2033, U+20AC;
+  src: local("Roboto"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-900italic.woff2") format("woff2"), url("/fonts/roboto-v30-latin-ext_latin/roboto-v30-latin-ext_latin-900italic.woff2") format("woff");
+}
