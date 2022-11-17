@@ -1,4 +1,4 @@
 @import 'vendors';
-@import 'variables';
-@import 'light-theme';
-@import 'dark-theme';
+
+/*! Custom cta theme */
+@import '../build//tokens.css';

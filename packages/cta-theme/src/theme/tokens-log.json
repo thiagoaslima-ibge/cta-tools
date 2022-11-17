@@ -1,0 +1,356 @@
+{
+  "color": {
+    "ibge": {
+      "azul": {
+        "name": "color-ibge-azul",
+        "value": "#004282",
+        "comment": "Azul oficial do IBGE",
+        "themeable": false,
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "name": "azul-ibge",
+          "value": "#004282",
+          "comment": "Azul oficial do IBGE",
+          "themeable": false
+        },
+        "attributes": {
+          "category": "color",
+          "type": "ibge",
+          "item": "azul"
+        },
+        "path": [
+          "color",
+          "ibge",
+          "azul"
+        ]
+      }
+    },
+    "institucional": {
+      "15": {
+        "value": "#002569",
+        "comment": "Valor de L: 28.1",
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "#002569",
+          "comment": "Valor de L: 28.1"
+        },
+        "name": "color-institucional-15",
+        "attributes": {
+          "category": "color",
+          "type": "institucional",
+          "item": "15"
+        },
+        "path": [
+          "color",
+          "institucional",
+          "15"
+        ]
+      },
+      "50": {
+        "value": "#3579cc",
+        "comment": "Valor de L: 50.4",
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "#3579cc",
+          "comment": "Valor de L: 50.4"
+        },
+        "name": "color-institucional-50",
+        "attributes": {
+          "category": "color",
+          "type": "institucional",
+          "item": "50"
+        },
+        "path": [
+          "color",
+          "institucional",
+          "50"
+        ]
+      },
+      "65": {
+        "value": "#629df4",
+        "comment": "Valor de L: 64.4",
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "#629df4",
+          "comment": "Valor de L: 64.4"
+        },
+        "name": "color-institucional-65",
+        "attributes": {
+          "category": "color",
+          "type": "institucional",
+          "item": "65"
+        },
+        "path": [
+          "color",
+          "institucional",
+          "65"
+        ]
+      },
+      "80": {
+        "value": "#92c8ff",
+        "comment": "Valor de L: 78.8",
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "#92c8ff",
+          "comment": "Valor de L: 78.8"
+        },
+        "name": "color-institucional-80",
+        "attributes": {
+          "category": "color",
+          "type": "institucional",
+          "item": "80"
+        },
+        "path": [
+          "color",
+          "institucional",
+          "80"
+        ]
+      }
+    },
+    "gray": {
+      "light": {
+        "value": "#cccccc",
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "#CCCCCC"
+        },
+        "name": "color-gray-light",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "gray",
+          "light"
+        ]
+      },
+      "medium": {
+        "value": "#999999",
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "#999999"
+        },
+        "name": "color-gray-medium",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "medium"
+        },
+        "path": [
+          "color",
+          "gray",
+          "medium"
+        ]
+      },
+      "dark": {
+        "value": "#111111",
+        "filePath": "src/tokens/color/base.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "#111111"
+        },
+        "name": "color-gray-dark",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "gray",
+          "dark"
+        ]
+      }
+    },
+    "red": {
+      "value": "#ff0000",
+      "filePath": "src/tokens/color/base.tokens.cjs",
+      "isSource": true,
+      "original": {
+        "value": "#FF0000"
+      },
+      "name": "color-red",
+      "attributes": {
+        "category": "color",
+        "type": "red"
+      },
+      "path": [
+        "color",
+        "red"
+      ]
+    },
+    "green": {
+      "value": "#00ff00",
+      "filePath": "src/tokens/color/base.tokens.cjs",
+      "isSource": true,
+      "original": {
+        "value": "#00FF00"
+      },
+      "name": "color-green",
+      "attributes": {
+        "category": "color",
+        "type": "green"
+      },
+      "path": [
+        "color",
+        "green"
+      ]
+    },
+    "font": {
+      "base": {
+        "value": "#ff0000",
+        "filePath": "src/tokens/color/font.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "{color.red.value}"
+        },
+        "name": "color-font-base",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "base"
+        },
+        "path": [
+          "color",
+          "font",
+          "base"
+        ]
+      },
+      "secondary": {
+        "value": "#00ff00",
+        "filePath": "src/tokens/color/font.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "{color.green.value}"
+        },
+        "name": "color-font-secondary",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "secondary"
+        },
+        "path": [
+          "color",
+          "font",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "#cccccc",
+        "filePath": "src/tokens/color/font.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "{color.gray.light.value}"
+        },
+        "name": "color-font-tertiary",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "tertiary"
+        },
+        "path": [
+          "color",
+          "font",
+          "tertiary"
+        ]
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "base": {
+        "value": "1px",
+        "comment": "the base size of the font",
+        "filePath": "src/tokens/size/font.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.medium.value}",
+          "comment": "the base size of the font"
+        },
+        "name": "size-font-base",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "base"
+        },
+        "path": [
+          "size",
+          "font",
+          "base"
+        ]
+      },
+      "small": {
+        "value": "0.75px",
+        "comment": "the small size of the font",
+        "filePath": "src/tokens/size/font.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "0.75",
+          "comment": "the small size of the font"
+        },
+        "name": "size-font-small",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "small"
+        },
+        "path": [
+          "size",
+          "font",
+          "small"
+        ]
+      },
+      "medium": {
+        "value": "1px",
+        "comment": "the medium size of the font",
+        "filePath": "src/tokens/size/font.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "1",
+          "comment": "the medium size of the font"
+        },
+        "name": "size-font-medium",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "medium"
+        },
+        "path": [
+          "size",
+          "font",
+          "medium"
+        ]
+      },
+      "large": {
+        "value": "2px",
+        "comment": "the large size of the font",
+        "filePath": "src/tokens/size/font.tokens.cjs",
+        "isSource": true,
+        "original": {
+          "value": "2",
+          "comment": "the large size of the font"
+        },
+        "name": "size-font-large",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "large"
+        },
+        "path": [
+          "size",
+          "font",
+          "large"
+        ]
+      }
+    }
+  }
+}

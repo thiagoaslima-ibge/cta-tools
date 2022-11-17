@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "name": "cta-async-icon",
+      "description": "Attributes:\n\n  * `id` {`string`} - \n\n  * `data-testid` {`string`} - \n\n  * `name` {`\"close-circle\"`} - The svg icon id\n\nProperties:\n\n  * `inline` {`boolean | undefined`} - The icon is used inline or as a block element\n\n  * `class` {`string | undefined`} - CSS class to be applied directly on the svg element\n\n  * `id` {`string`} - \n\n  * `dataTestId` {`string`} - \n\n  * `name` {`\"close-circle\"`} - The svg icon id",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "`id` {`string`} - \n\nProperty: id\n\nDefault: "
+        },
+        {
+          "name": "data-testid",
+          "description": "`data-testid` {`string`} - \n\nProperty: dataTestId\n\nDefault: "
+        },
+        {
+          "name": "name",
+          "description": "`name` {`\"close-circle\"`} - The svg icon id\n\nProperty: name",
+          "values": [
+            {
+              "name": "close-circle"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "globalAttributes": [],
+  "valueSets": []
+}

@@ -1,0 +1,24 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 16 Nov 2022 23:43:21 GMT
+ */
+
+:root {
+  --size-font-large: 2px; /* the large size of the font */
+  --size-font-medium: 1px; /* the medium size of the font */
+  --size-font-small: 0.75px; /* the small size of the font */
+  --color-green: #00ff00;
+  --color-red: #ff0000;
+  --color-gray-dark: #111111;
+  --color-gray-medium: #999999;
+  --color-gray-light: #cccccc;
+  --color-institucional-80: #92c8ff; /* Valor de L: 78.8 */
+  --color-institucional-65: #629df4; /* Valor de L: 64.4 */
+  --color-institucional-50: #3579cc; /* Valor de L: 50.4 */
+  --color-institucional-15: #002569; /* Valor de L: 28.1 */
+  --color-ibge-azul: #004282; /* Azul oficial do IBGE */
+  --size-font-base: var(--size-font-medium); /* the base size of the font */
+  --color-font-tertiary: var(--color-gray-light);
+  --color-font-secondary: var(--color-green);
+  --color-font-base: var(--color-red);
+}

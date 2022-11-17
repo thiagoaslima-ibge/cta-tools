@@ -1,5 +1,8 @@
 {
   "exportall.config.folderListener": [
     "/packages/theme/src/variables"
+  ],
+  "html.customData": [
+    "./packages/cta-components/components/cta-icon.json"
   ]
 }

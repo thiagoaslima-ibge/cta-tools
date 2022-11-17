@@ -2,8 +2,6 @@ import { html, LitElement } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import './index.css';
 
-export { IconSprite } from './icons/IconSprite'
-
 const TAG_NAME = 'cta-theme';
 
 declare global {

@@ -1,11 +1,4 @@
-/**
- * Os nomes das cores variam de 0 a 100, preferencialmente variando de 5 em 5
- * Os números são baseados no valor de Lightness do espaço de cor HSLuv
- * Números maiores indicam corem mais claras
- * Números menos indicam cores mais escuras
- * Preto é 0 e Branco é 100
- * Mais informação em {@link hsluv.org}
- */
+
 :root {
   /* Azul IBGE */
   --ibge-oficial: #004282;     /* 28.1 */
@@ -16,20 +9,26 @@
 
   /* Neutros */
   --neutro-0: #000000;   /* 0 */
+  --neutro-5: #111111;   /* 5.1 */
   --neutro-15: #242424;  /* 14.2 */
   --neutro-25: #3d3d3d;  /* 25.8 */
+  --neutro-35: #565656;  /* 36.6 */
   --neutro-50: #767676;  /* 49.6 */
+  --neutro-65: #999999;  /* 63.2 */
   --neutro-80: #c5c5c5;  /* 79.5 */
   --neutro-90: #dddddd;  /* 88.1 */
   --neutro-95: #eeeeee;  /* 94.1 */
   --neutro-100: #ffffff; /* 100 */
 
+  /* Cianos */
+  --ciano-50: #0078A8; /* 47.3 */
+  --ciano-60: #008eff; /* 58.6 */
+  --ciano-75: #74bdff; /* 74.4 */
+
   /* Azuis */
   --azul-25: #0022b9; /* 25.7 */
   --azul-35: #003adf; /* 34.7 */
-  --azul-50: #006dff; /* 59.7 */
-  --azul-60: #008eff; /* 58.6 */
-  --azul-75: #74bdff; /* 74.4 */
+  --azul-60: #006dff; /* 59.7 */
   
   /* Laranjas */
   --laranja-20: #680001; /* 19.8 */
@@ -55,6 +54,7 @@
   /* Verdes */
   --verde-15: #002f00; /* 15.7 */
   --verde-30: #004d00; /* 27.6 */
+  --verde-35: #006600; /* 36.9 */
   --verde-50: #138500; /* 48.1 */
   --verde-60: #46a500; /* 60.1 */
   --verde-80: #87dc00; /* 79.8 */
