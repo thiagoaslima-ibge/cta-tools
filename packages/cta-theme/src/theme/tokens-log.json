@@ -1,217 +1,1159 @@
 {
   "color": {
-    "ibge": {
-      "azul": {
-        "name": "color-ibge-azul",
-        "value": "#004282",
-        "comment": "Azul oficial do IBGE",
-        "themeable": false,
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
-          "name": "azul-ibge",
+    "base": {
+      "ibge": {
+        "azul": {
           "value": "#004282",
           "comment": "Azul oficial do IBGE",
-          "themeable": false
-        },
-        "attributes": {
-          "category": "color",
-          "type": "ibge",
-          "item": "azul"
-        },
-        "path": [
-          "color",
-          "ibge",
-          "azul"
-        ]
-      }
-    },
-    "institucional": {
-      "15": {
-        "value": "#002569",
-        "comment": "Valor de L: 28.1",
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#004282",
+            "comment": "Azul oficial do IBGE"
+          },
+          "name": "color-base-ibge-azul",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "ibge",
+            "subitem": "azul"
+          },
+          "path": [
+            "color",
+            "base",
+            "ibge",
+            "azul"
+          ]
+        }
+      },
+      "institucional": {
+        "15": {
           "value": "#002569",
-          "comment": "Valor de L: 28.1"
+          "comment": "28.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#002569",
+            "comment": "28.1"
+          },
+          "name": "color-base-institucional-15",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "institucional",
+            "subitem": "15"
+          },
+          "path": [
+            "color",
+            "base",
+            "institucional",
+            "15"
+          ]
         },
-        "name": "color-institucional-15",
-        "attributes": {
-          "category": "color",
-          "type": "institucional",
-          "item": "15"
+        "30": {
+          "value": "#004282",
+          "comment": "28.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.ibge.azul.value}",
+            "comment": "28.1"
+          },
+          "name": "color-base-institucional-30",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "institucional",
+            "subitem": "30"
+          },
+          "path": [
+            "color",
+            "base",
+            "institucional",
+            "30"
+          ]
         },
-        "path": [
-          "color",
-          "institucional",
-          "15"
-        ]
-      },
-      "50": {
-        "value": "#3579cc",
-        "comment": "Valor de L: 50.4",
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
+        "50": {
           "value": "#3579cc",
-          "comment": "Valor de L: 50.4"
+          "comment": "50.4",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#3579cc",
+            "comment": "50.4"
+          },
+          "name": "color-base-institucional-50",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "institucional",
+            "subitem": "50"
+          },
+          "path": [
+            "color",
+            "base",
+            "institucional",
+            "50"
+          ]
         },
-        "name": "color-institucional-50",
-        "attributes": {
-          "category": "color",
-          "type": "institucional",
-          "item": "50"
-        },
-        "path": [
-          "color",
-          "institucional",
-          "50"
-        ]
-      },
-      "65": {
-        "value": "#629df4",
-        "comment": "Valor de L: 64.4",
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
+        "65": {
           "value": "#629df4",
-          "comment": "Valor de L: 64.4"
+          "comment": "64.4",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#629df4",
+            "comment": "64.4"
+          },
+          "name": "color-base-institucional-65",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "institucional",
+            "subitem": "65"
+          },
+          "path": [
+            "color",
+            "base",
+            "institucional",
+            "65"
+          ]
         },
-        "name": "color-institucional-65",
-        "attributes": {
-          "category": "color",
-          "type": "institucional",
-          "item": "65"
-        },
-        "path": [
-          "color",
-          "institucional",
-          "65"
-        ]
-      },
-      "80": {
-        "value": "#92c8ff",
-        "comment": "Valor de L: 78.8",
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
+        "80": {
           "value": "#92c8ff",
-          "comment": "Valor de L: 78.8"
+          "comment": "78.8",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#92c8ff",
+            "comment": "78.8"
+          },
+          "name": "color-base-institucional-80",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "institucional",
+            "subitem": "80"
+          },
+          "path": [
+            "color",
+            "base",
+            "institucional",
+            "80"
+          ]
+        }
+      },
+      "neutro": {
+        "0": {
+          "value": "#000000",
+          "comment": "0",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#000000",
+            "comment": "0"
+          },
+          "name": "color-base-neutro-0",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "0"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "0"
+          ]
         },
-        "name": "color-institucional-80",
-        "attributes": {
-          "category": "color",
-          "type": "institucional",
-          "item": "80"
+        "5": {
+          "value": "#111111",
+          "comment": "5.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#111111",
+            "comment": "5.1"
+          },
+          "name": "color-base-neutro-5",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "5"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "5"
+          ]
         },
-        "path": [
-          "color",
-          "institucional",
-          "80"
-        ]
+        "15": {
+          "value": "#242424",
+          "comment": "14.2",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#242424",
+            "comment": "14.2"
+          },
+          "name": "color-base-neutro-15",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "15"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "15"
+          ]
+        },
+        "25": {
+          "value": "#3d3d3d",
+          "comment": "25.8",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#3d3d3d",
+            "comment": "25.8"
+          },
+          "name": "color-base-neutro-25",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "25"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "25"
+          ]
+        },
+        "35": {
+          "value": "#565656",
+          "comment": "36.6",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#565656",
+            "comment": "36.6"
+          },
+          "name": "color-base-neutro-35",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "35"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "35"
+          ]
+        },
+        "50": {
+          "value": "#767676",
+          "comment": "49.6",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#767676",
+            "comment": "49.6"
+          },
+          "name": "color-base-neutro-50",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "50"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "50"
+          ]
+        },
+        "65": {
+          "value": "#999999",
+          "comment": "63.2",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#999999",
+            "comment": "63.2"
+          },
+          "name": "color-base-neutro-65",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "65"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "65"
+          ]
+        },
+        "80": {
+          "value": "#c5c5c5",
+          "comment": "79.5",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#c5c5c5",
+            "comment": "79.5"
+          },
+          "name": "color-base-neutro-80",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "80"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "80"
+          ]
+        },
+        "90": {
+          "value": "#dddddd",
+          "comment": "88.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#dddddd",
+            "comment": "88.1"
+          },
+          "name": "color-base-neutro-90",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "90"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "90"
+          ]
+        },
+        "95": {
+          "value": "#eeeeee",
+          "comment": "94.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#eeeeee",
+            "comment": "94.1"
+          },
+          "name": "color-base-neutro-95",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "95"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "95"
+          ]
+        },
+        "100": {
+          "value": "#ffffff",
+          "comment": "100",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff",
+            "comment": "100"
+          },
+          "name": "color-base-neutro-100",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "neutro",
+            "subitem": "100"
+          },
+          "path": [
+            "color",
+            "base",
+            "neutro",
+            "100"
+          ]
+        }
+      },
+      "azul": {
+        "25": {
+          "value": "#0022b9",
+          "comment": "25.7",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#0022b9",
+            "comment": "25.7"
+          },
+          "name": "color-base-azul-25",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "azul",
+            "subitem": "25"
+          },
+          "path": [
+            "color",
+            "base",
+            "azul",
+            "25"
+          ]
+        },
+        "35": {
+          "value": "#003adf",
+          "comment": "34.7",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#003adf",
+            "comment": "34.7"
+          },
+          "name": "color-base-azul-35",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "azul",
+            "subitem": "35"
+          },
+          "path": [
+            "color",
+            "base",
+            "azul",
+            "35"
+          ]
+        },
+        "55": {
+          "value": "#006dff",
+          "comment": "59.7",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#006dff",
+            "comment": "59.7"
+          },
+          "name": "color-base-azul-55",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "azul",
+            "subitem": "55"
+          },
+          "path": [
+            "color",
+            "base",
+            "azul",
+            "55"
+          ]
+        },
+        "60": {
+          "value": "#008eff",
+          "comment": "58.6",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#008eff",
+            "comment": "58.6"
+          },
+          "name": "color-base-azul-60",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "azul",
+            "subitem": "60"
+          },
+          "path": [
+            "color",
+            "base",
+            "azul",
+            "60"
+          ]
+        },
+        "75": {
+          "value": "#74bdff",
+          "comment": "74.4",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#74bdff",
+            "comment": "74.4"
+          },
+          "name": "color-base-azul-75",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "azul",
+            "subitem": "75"
+          },
+          "path": [
+            "color",
+            "base",
+            "azul",
+            "75"
+          ]
+        }
+      },
+      "laranja": {
+        "20": {
+          "value": "#680001",
+          "comment": "19.8",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#680001",
+            "comment": "19.8"
+          },
+          "name": "color-base-laranja-20",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "laranja",
+            "subitem": "20"
+          },
+          "path": [
+            "color",
+            "base",
+            "laranja",
+            "20"
+          ]
+        },
+        "30": {
+          "value": "#900000",
+          "comment": "29.2",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#900000",
+            "comment": "29.2"
+          },
+          "name": "color-base-laranja-30",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "laranja",
+            "subitem": "30"
+          },
+          "path": [
+            "color",
+            "base",
+            "laranja",
+            "30"
+          ]
+        },
+        "55": {
+          "value": "#f14600",
+          "comment": "55.2",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#f14600",
+            "comment": "55.2"
+          },
+          "name": "color-base-laranja-55",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "laranja",
+            "subitem": "55"
+          },
+          "path": [
+            "color",
+            "base",
+            "laranja",
+            "55"
+          ]
+        },
+        "65": {
+          "value": "#ff7200",
+          "comment": "64.4",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#ff7200",
+            "comment": "64.4"
+          },
+          "name": "color-base-laranja-65",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "laranja",
+            "subitem": "65"
+          },
+          "path": [
+            "color",
+            "base",
+            "laranja",
+            "65"
+          ]
+        },
+        "70": {
+          "value": "#ff8b00",
+          "comment": "69.3",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#ff8b00",
+            "comment": "69.3"
+          },
+          "name": "color-base-laranja-70",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "laranja",
+            "subitem": "70"
+          },
+          "path": [
+            "color",
+            "base",
+            "laranja",
+            "70"
+          ]
+        }
+      },
+      "pessego": {
+        "15": {
+          "value": "#5a0004",
+          "comment": "16.4",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#5a0004",
+            "comment": "16.4"
+          },
+          "name": "color-base-pessego-15",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "pessego",
+            "subitem": "15"
+          },
+          "path": [
+            "color",
+            "base",
+            "pessego",
+            "15"
+          ]
+        },
+        "25": {
+          "value": "#7f0023",
+          "comment": "25.7",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#7f0023",
+            "comment": "25.7"
+          },
+          "name": "color-base-pessego-25",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "pessego",
+            "subitem": "25"
+          },
+          "path": [
+            "color",
+            "base",
+            "pessego",
+            "25"
+          ]
+        },
+        "55": {
+          "value": "#d15761",
+          "comment": "53.2",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#d15761",
+            "comment": "53.2"
+          },
+          "name": "color-base-pessego-55",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "pessego",
+            "subitem": "55"
+          },
+          "path": [
+            "color",
+            "base",
+            "pessego",
+            "55"
+          ]
+        },
+        "70": {
+          "value": "#fc7d84",
+          "comment": "67.3",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#fc7d84",
+            "comment": "67.3"
+          },
+          "name": "color-base-pessego-70",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "pessego",
+            "subitem": "70"
+          },
+          "path": [
+            "color",
+            "base",
+            "pessego",
+            "70"
+          ]
+        },
+        "75": {
+          "value": "#ff9da3",
+          "comment": "74.8",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#ff9da3",
+            "comment": "74.8"
+          },
+          "name": "color-base-pessego-75",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "pessego",
+            "subitem": "75"
+          },
+          "path": [
+            "color",
+            "base",
+            "pessego",
+            "75"
+          ]
+        }
+      },
+      "turquesa": {
+        "15": {
+          "value": "#002c37",
+          "comment": "15.9",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#002c37",
+            "comment": "15.9"
+          },
+          "name": "color-base-turquesa-15",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "turquesa",
+            "subitem": "15"
+          },
+          "path": [
+            "color",
+            "base",
+            "turquesa",
+            "15"
+          ]
+        },
+        "20": {
+          "value": "#004a55",
+          "comment": "28.3",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#004a55",
+            "comment": "28.3"
+          },
+          "name": "color-base-turquesa-20",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "turquesa",
+            "subitem": "20"
+          },
+          "path": [
+            "color",
+            "base",
+            "turquesa",
+            "20"
+          ]
+        },
+        "45": {
+          "value": "#0078a8",
+          "comment": "47.3",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#0078A8",
+            "comment": "47.3"
+          },
+          "name": "color-base-turquesa-45",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "turquesa",
+            "subitem": "45"
+          },
+          "path": [
+            "color",
+            "base",
+            "turquesa",
+            "45"
+          ]
+        },
+        "50": {
+          "value": "#00808b",
+          "comment": "48.6",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#00808b",
+            "comment": "48.6"
+          },
+          "name": "color-base-turquesa-50",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "turquesa",
+            "subitem": "50"
+          },
+          "path": [
+            "color",
+            "base",
+            "turquesa",
+            "50"
+          ]
+        },
+        "60": {
+          "value": "#16a0ab",
+          "comment": "60.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#16a0ab",
+            "comment": "60.1"
+          },
+          "name": "color-base-turquesa-60",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "turquesa",
+            "subitem": "60"
+          },
+          "path": [
+            "color",
+            "base",
+            "turquesa",
+            "60"
+          ]
+        },
+        "80": {
+          "value": "#63d7e2",
+          "comment": "80.0",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#63d7e2",
+            "comment": "80.0"
+          },
+          "name": "color-base-turquesa-80",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "turquesa",
+            "subitem": "80"
+          },
+          "path": [
+            "color",
+            "base",
+            "turquesa",
+            "80"
+          ]
+        }
+      },
+      "verde": {
+        "15": {
+          "value": "#002f00",
+          "comment": "15.7",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#002f00",
+            "comment": "15.7"
+          },
+          "name": "color-base-verde-15",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "verde",
+            "subitem": "15"
+          },
+          "path": [
+            "color",
+            "base",
+            "verde",
+            "15"
+          ]
+        },
+        "30": {
+          "value": "#004d00",
+          "comment": "27.6",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#004d00",
+            "comment": "27.6"
+          },
+          "name": "color-base-verde-30",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "verde",
+            "subitem": "30"
+          },
+          "path": [
+            "color",
+            "base",
+            "verde",
+            "30"
+          ]
+        },
+        "35": {
+          "value": "#006600",
+          "comment": "36.9",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#006600",
+            "comment": "36.9"
+          },
+          "name": "color-base-verde-35",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "verde",
+            "subitem": "35"
+          },
+          "path": [
+            "color",
+            "base",
+            "verde",
+            "35"
+          ]
+        },
+        "50": {
+          "value": "#138500",
+          "comment": "48.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#138500",
+            "comment": "48.1"
+          },
+          "name": "color-base-verde-50",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "verde",
+            "subitem": "50"
+          },
+          "path": [
+            "color",
+            "base",
+            "verde",
+            "50"
+          ]
+        },
+        "60": {
+          "value": "#46a500",
+          "comment": "60.1",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#46a500",
+            "comment": "60.1"
+          },
+          "name": "color-base-verde-60",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "verde",
+            "subitem": "60"
+          },
+          "path": [
+            "color",
+            "base",
+            "verde",
+            "60"
+          ]
+        },
+        "80": {
+          "value": "#87dc00",
+          "comment": "79.8",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#87dc00",
+            "comment": "79.8"
+          },
+          "name": "color-base-verde-80",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "verde",
+            "subitem": "80"
+          },
+          "path": [
+            "color",
+            "base",
+            "verde",
+            "80"
+          ]
+        }
+      },
+      "violeta": {
+        "15": {
+          "value": "#240d6a",
+          "comment": "13.8",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#240d6a",
+            "comment": "13.8"
+          },
+          "name": "color-base-violeta-15",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "violeta",
+            "subitem": "15"
+          },
+          "path": [
+            "color",
+            "base",
+            "violeta",
+            "15"
+          ]
+        },
+        "25": {
+          "value": "#472b8b",
+          "comment": "26.5",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#472b8b",
+            "comment": "26.5"
+          },
+          "name": "color-base-violeta-25",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "violeta",
+            "subitem": "25"
+          },
+          "path": [
+            "color",
+            "base",
+            "violeta",
+            "25"
+          ]
+        },
+        "50": {
+          "value": "#8764cd",
+          "comment": "50.3",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#8764cd",
+            "comment": "50.3"
+          },
+          "name": "color-base-violeta-50",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "violeta",
+            "subitem": "50"
+          },
+          "path": [
+            "color",
+            "base",
+            "violeta",
+            "50"
+          ]
+        },
+        "65": {
+          "value": "#ae88f5",
+          "comment": "64.3",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#ae88f5",
+            "comment": "64.3"
+          },
+          "name": "color-base-violeta-65",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "violeta",
+            "subitem": "65"
+          },
+          "path": [
+            "color",
+            "base",
+            "violeta",
+            "65"
+          ]
+        },
+        "80": {
+          "value": "#dcb2ff",
+          "comment": "78.6",
+          "filePath": "src/tokens/color/base.tokens.cjs",
+          "isSource": true,
+          "original": {
+            "value": "#dcb2ff",
+            "comment": "78.6"
+          },
+          "name": "color-base-violeta-80",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "violeta",
+            "subitem": "80"
+          },
+          "path": [
+            "color",
+            "base",
+            "violeta",
+            "80"
+          ]
+        }
       }
-    },
-    "gray": {
-      "light": {
-        "value": "#cccccc",
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
-          "value": "#CCCCCC"
-        },
-        "name": "color-gray-light",
-        "attributes": {
-          "category": "color",
-          "type": "gray",
-          "item": "light"
-        },
-        "path": [
-          "color",
-          "gray",
-          "light"
-        ]
-      },
-      "medium": {
-        "value": "#999999",
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
-          "value": "#999999"
-        },
-        "name": "color-gray-medium",
-        "attributes": {
-          "category": "color",
-          "type": "gray",
-          "item": "medium"
-        },
-        "path": [
-          "color",
-          "gray",
-          "medium"
-        ]
-      },
-      "dark": {
-        "value": "#111111",
-        "filePath": "src/tokens/color/base.tokens.cjs",
-        "isSource": true,
-        "original": {
-          "value": "#111111"
-        },
-        "name": "color-gray-dark",
-        "attributes": {
-          "category": "color",
-          "type": "gray",
-          "item": "dark"
-        },
-        "path": [
-          "color",
-          "gray",
-          "dark"
-        ]
-      }
-    },
-    "red": {
-      "value": "#ff0000",
-      "filePath": "src/tokens/color/base.tokens.cjs",
-      "isSource": true,
-      "original": {
-        "value": "#FF0000"
-      },
-      "name": "color-red",
-      "attributes": {
-        "category": "color",
-        "type": "red"
-      },
-      "path": [
-        "color",
-        "red"
-      ]
-    },
-    "green": {
-      "value": "#00ff00",
-      "filePath": "src/tokens/color/base.tokens.cjs",
-      "isSource": true,
-      "original": {
-        "value": "#00FF00"
-      },
-      "name": "color-green",
-      "attributes": {
-        "category": "color",
-        "type": "green"
-      },
-      "path": [
-        "color",
-        "green"
-      ]
     },
     "font": {
       "base": {
-        "value": "#ff0000",
+        "value": "#111111",
         "filePath": "src/tokens/color/font.tokens.cjs",
         "isSource": true,
         "original": {
-          "value": "{color.red.value}"
+          "value": "{color.base.neutro.5.value}"
         },
         "name": "color-font-base",
         "attributes": {
@@ -226,11 +1168,11 @@
         ]
       },
       "secondary": {
-        "value": "#00ff00",
+        "value": "#3d3d3d",
         "filePath": "src/tokens/color/font.tokens.cjs",
         "isSource": true,
         "original": {
-          "value": "{color.green.value}"
+          "value": "{color.base.neutro.25.value}"
         },
         "name": "color-font-secondary",
         "attributes": {
@@ -245,11 +1187,11 @@
         ]
       },
       "tertiary": {
-        "value": "#cccccc",
+        "value": "#767676",
         "filePath": "src/tokens/color/font.tokens.cjs",
         "isSource": true,
         "original": {
-          "value": "{color.gray.light.value}"
+          "value": "{color.base.neutro.50.value}"
         },
         "name": "color-font-tertiary",
         "attributes": {
