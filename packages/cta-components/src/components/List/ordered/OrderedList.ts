@@ -1,6 +1,6 @@
-import { CSSResultArray, html, LitElement } from "lit";
+import { html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
-import styles from './ordered-list.css';
+// import styles from './ordered-list.css?inline';
 
 const TAG_NAME = "cta-ordered-list";
 
@@ -21,7 +21,7 @@ export interface OrderedListElement extends HTMLElement {
 
 @customElement(TAG_NAME)
 export class OrderedList extends LitElement {
-  static styles = [styles] as unknown as CSSResultArray;
+  // static styles = [styles] as unknown as CSSResultArray;
 
   @property({ type: String, reflect: true })
   get type() {

@@ -15,7 +15,9 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run clean-types && tsc && vite build",
-    "clean-types": "rm -rf ./types"
+    "clean-types": "rm -rf ./types",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "cta-theme": "*",
@@ -26,8 +28,17 @@
     "ts-essentials": "^9.3.0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.15",
+    "@storybook/addon-links": "^7.0.0-beta.15",
+    "@storybook/blocks": "^7.0.0-beta.15",
+    "@storybook/web-components": "^7.0.0-beta.15",
+    "@storybook/web-components-vite": "^7.0.0-beta.15",
     "@types/dompurify": "^2.4.0",
     "@types/lodash": "^4.14.189",
+    "lit-html": "^2.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.0-beta.15",
     "typescript": "^4.9.3",
     "vite": "^3.2.4",
     "web-component-analyzer": "^2.0.0-next.4"
