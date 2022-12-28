@@ -1,0 +1,7 @@
+:host {
+  display: contents;
+}
+
+cta-ordered-list::part(list) {
+  padding: 0;
+}
