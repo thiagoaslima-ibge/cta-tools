@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Dec 2022 06:26:29 GMT
+ * Generated on Wed, 28 Dec 2022 07:11:11 GMT
  */
 
 export const tokens = {
@@ -80,13 +80,13 @@ export const tokens = {
       "tertiary": "#767676"
     },
     "primary": "#006dff",
-    "secondary": "#74bdff",
+    "secondary": "#003adf",
     "alt": {
-      "contrast1": "#74bdff",
-      "contrast2": "#008eff",
+      "contrast1": "#0022b9",
+      "contrast2": "#003adf",
       "contrast3": "#006dff",
-      "contrast4": "#003adf",
-      "contrast5": "#0022b9"
+      "contrast4": "#008eff",
+      "contrast5": "#74bdff"
     }
   },
   "font": {
@@ -140,4 +140,4 @@ export const tokens = {
       "large": "2px"
     }
   }
-};
+} as const;

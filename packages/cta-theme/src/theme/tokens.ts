@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 17 Nov 2022 07:40:46 GMT
+ * Generated on Wed, 28 Dec 2022 06:26:29 GMT
  */
 
 export const tokens = {
@@ -78,6 +78,58 @@ export const tokens = {
       "base": "#111111",
       "secondary": "#3d3d3d",
       "tertiary": "#767676"
+    },
+    "primary": "#006dff",
+    "secondary": "#74bdff",
+    "alt": {
+      "contrast1": "#74bdff",
+      "contrast2": "#008eff",
+      "contrast3": "#006dff",
+      "contrast4": "#003adf",
+      "contrast5": "#0022b9"
+    }
+  },
+  "font": {
+    "base": {
+      "family": {
+        "sans": "Roboto, sans-serif",
+        "monospace": "'Roboto Mono', monospace, 'courier new', serif",
+        "default": "Roboto, sans-serif"
+      },
+      "variant": {
+        "text": {
+          "default": "common-ligatures",
+          "abbreviation": "small-caps"
+        },
+        "numbers": {
+          "oldStyle": "oldstyle-nums proportional-nums",
+          "lining": "lining-nums proportional-nums",
+          "tabular": "lining-nums tabular-nums",
+          "ordinal": "lining-nums ordinal",
+          "default": "oldstyle-nums proportional-nums"
+        }
+      },
+      "size": {}
+    },
+    "heading": {
+      "family": "Roboto, sans-serif",
+      "variant": "common-ligatures lining-nums proportional-nums"
+    },
+    "body": {
+      "family": "Roboto, sans-serif",
+      "variant": "common-ligatures oldstyle-nums proportional-nums"
+    },
+    "table": {
+      "family": "Roboto, sans-serif",
+      "variant": "common-ligatures lining-nums tabular-nums"
+    },
+    "abbreviation": {
+      "family": "Roboto, sans-serif",
+      "variant": "small-caps oldstyle-nums proportional-nums"
+    },
+    "code": {
+      "family": "'Roboto Mono', monospace, 'courier new', serif",
+      "variant": "common-ligatures lining-nums tabular-nums"
     }
   },
   "size": {

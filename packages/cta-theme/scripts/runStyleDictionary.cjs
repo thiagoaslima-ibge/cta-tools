@@ -1,13 +1,19 @@
 // @ts-check
 
-const { fileURLToPath } = require('node:url');
-const { dirname, join, resolve } = require('node:path');
+const GLOBAL_STYLES = 'src/tokens/global/**/*.tokens.cjs';
 
-const StyleDictionary = require('style-dictionary').extend({
-  source: ['src/tokens/**/*.tokens.cjs'],
-  platforms: {
+/**
+ * @param  {string[]} files The list of token files of a specific theme
+ * @returns string[]
+ */
+const themeSource = (...files) => {
+  return files;
+}
+
+const themePlatform = (destinationFolder) => {
+  return {
     json: {
-      buildPath: 'src/theme/',
+      buildPath: destinationFolder,
       transformGroup: 'web',
       files: [{
         destination: 'tokens-log.json',
@@ -19,7 +25,7 @@ const StyleDictionary = require('style-dictionary').extend({
       }],
     },
     css: {
-      buildPath: 'src/theme/',
+      buildPath: destinationFolder,
       transformGroup: 'web',
       files: [{
         destination: 'tokens.css',
@@ -35,7 +41,18 @@ const StyleDictionary = require('style-dictionary').extend({
         }
       }]
     }
-  }
-});
+  };
+}
 
-StyleDictionary.buildAllPlatforms();
+[
+  {theme: 'estatistica', variant: 'light'},
+  {theme: 'estatistica', variant: 'dark'},
+].forEach(({theme, variant}) => {
+  const dictionary = require('style-dictionary').extend({
+    include: [GLOBAL_STYLES],
+    source: themeSource(`src/tokens/theme/${theme}/**/*-${variant}.tokens.cjs`),
+    platforms: themePlatform(`src/theme/${theme}/${variant}/`),
+  });
+  
+  dictionary.buildAllPlatforms();
+})

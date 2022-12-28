@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Dec 2022 06:26:29 GMT
+ * Generated on Wed, 28 Dec 2022 07:11:11 GMT
  */
 
 export const tokens = {
@@ -140,4 +140,4 @@ export const tokens = {
       "large": "2px"
     }
   }
-};
+} as const;

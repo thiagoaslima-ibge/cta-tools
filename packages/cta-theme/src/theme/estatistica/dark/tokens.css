@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Dec 2022 04:12:12 GMT
+ * Generated on Wed, 28 Dec 2022 07:11:10 GMT
  */
 
 :root {
@@ -72,12 +72,12 @@
   --font-heading-variant: var(--font-base-variant-text-default) var(--font-base-variant-numbers-lining);
   --font-base-variant-numbers-default: var(--font-base-variant-numbers-old-style);
   --font-base-family-default: var(--font-base-family-sans);
-  --color-alt-contrast5: var(--color-base-azul-25);
-  --color-alt-contrast4: var(--color-base-azul-35);
+  --color-alt-contrast5: var(--color-base-azul-75);
+  --color-alt-contrast4: var(--color-base-azul-60);
   --color-alt-contrast3: var(--color-base-azul-55);
-  --color-alt-contrast2: var(--color-base-azul-60);
-  --color-alt-contrast1: var(--color-base-azul-75);
-  --color-secondary: var(--color-base-azul-75);
+  --color-alt-contrast2: var(--color-base-azul-35);
+  --color-alt-contrast1: var(--color-base-azul-25);
+  --color-secondary: var(--color-base-azul-35);
   --color-primary: var(--color-base-azul-55);
   --color-font-tertiary: var(--color-base-neutro-50);
   --color-font-secondary: var(--color-base-neutro-25);

@@ -12,29 +12,87 @@
 /* @type DesignTokens */
 module.exports = {
   font: {
-    family: {
-      base: {
+    base: {
+      family: {
         sans: {
           value: "Roboto, sans-serif",
         },
         monospace: {
           value: "'Roboto Mono', monospace, 'courier new', serif",
         },
-        general: {
-          value: "{ font.base.sans }",
+        default: {
+          value: "{ font.base.family.sans.value }",
         },
       },
-      heading: {
-        value: "{ font.base.general }",
+      variant: {
+        text: {
+          default: {
+            value: "common-ligatures"
+          },
+          abbreviation: {
+            value: "small-caps"
+          },
+        },
+        numbers: {
+          oldStyle: {
+            value: "oldstyle-nums proportional-nums"
+          },
+          lining: {
+            value: "lining-nums proportional-nums"
+          },
+          tabular: {
+            value: "lining-nums tabular-nums"
+          },
+          ordinal: {
+            value: "lining-nums ordinal"
+          },
+          default: {
+            value: "{ font.base.variant.numbers.oldStyle.value }"
+          }
+        }
       },
-      body: {
-        value: "{ font.base.general }",
+      size: {
+
       },
-      table: {
-        value: "{ font.base.general }",  
+    },
+    heading: {
+      family: {
+        value: "{ font.base.family.default.value }",
       },
-      code: {
-        value: "{ font.base.monospace }",
+      variant: {
+        value: "{ font.base.variant.text.default.value } { font.base.variant.numbers.lining.value }"
+      }
+    },
+    body: {
+      family: {
+        value: "{ font.base.family.default.value }",
+      },
+      variant: {
+        value: "{ font.base.variant.text.default.value } { font.base.variant.numbers.default.value }"
+      }
+    },
+    table: {
+      family: {
+        value: "{ font.base.family.default.value }",
+      },
+      variant: {
+        value: "{ font.base.variant.text.default.value } { font.base.variant.numbers.tabular.value }"
+      }
+    },
+    abbreviation: {
+      family: {
+        value: "{ font.base.family.default.value }",
+      },
+      variant: {
+        value: "{ font.base.variant.text.abbreviation.value } { font.base.variant.numbers.default.value }"
+      }
+    },
+    code: {
+      family: {
+        value: "{ font.base.family.monospace.value }",
+      },
+      variant: {
+        value: "{ font.base.variant.text.default.value } { font.base.variant.numbers.tabular.value }"
       }
     }
   },

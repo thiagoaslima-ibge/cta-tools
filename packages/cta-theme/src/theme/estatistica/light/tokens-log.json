@@ -6,7 +6,7 @@
           "value": "#004282",
           "comment": "Azul oficial do IBGE",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#004282",
             "comment": "Azul oficial do IBGE"
@@ -31,7 +31,7 @@
           "value": "#002569",
           "comment": "28.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#002569",
             "comment": "28.1"
@@ -54,7 +54,7 @@
           "value": "#004282",
           "comment": "28.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "{color.base.ibge.azul.value}",
             "comment": "28.1"
@@ -77,7 +77,7 @@
           "value": "#3579cc",
           "comment": "50.4",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#3579cc",
             "comment": "50.4"
@@ -100,7 +100,7 @@
           "value": "#629df4",
           "comment": "64.4",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#629df4",
             "comment": "64.4"
@@ -123,7 +123,7 @@
           "value": "#92c8ff",
           "comment": "78.8",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#92c8ff",
             "comment": "78.8"
@@ -148,7 +148,7 @@
           "value": "#000000",
           "comment": "0",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#000000",
             "comment": "0"
@@ -171,7 +171,7 @@
           "value": "#111111",
           "comment": "5.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#111111",
             "comment": "5.1"
@@ -194,7 +194,7 @@
           "value": "#242424",
           "comment": "14.2",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#242424",
             "comment": "14.2"
@@ -217,7 +217,7 @@
           "value": "#3d3d3d",
           "comment": "25.8",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#3d3d3d",
             "comment": "25.8"
@@ -240,7 +240,7 @@
           "value": "#565656",
           "comment": "36.6",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#565656",
             "comment": "36.6"
@@ -263,7 +263,7 @@
           "value": "#767676",
           "comment": "49.6",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#767676",
             "comment": "49.6"
@@ -286,7 +286,7 @@
           "value": "#999999",
           "comment": "63.2",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#999999",
             "comment": "63.2"
@@ -309,7 +309,7 @@
           "value": "#c5c5c5",
           "comment": "79.5",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#c5c5c5",
             "comment": "79.5"
@@ -332,7 +332,7 @@
           "value": "#dddddd",
           "comment": "88.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#dddddd",
             "comment": "88.1"
@@ -355,7 +355,7 @@
           "value": "#eeeeee",
           "comment": "94.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#eeeeee",
             "comment": "94.1"
@@ -378,7 +378,7 @@
           "value": "#ffffff",
           "comment": "100",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ffffff",
             "comment": "100"
@@ -403,7 +403,7 @@
           "value": "#0022b9",
           "comment": "25.7",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#0022b9",
             "comment": "25.7"
@@ -426,7 +426,7 @@
           "value": "#003adf",
           "comment": "34.7",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#003adf",
             "comment": "34.7"
@@ -449,7 +449,7 @@
           "value": "#006dff",
           "comment": "59.7",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#006dff",
             "comment": "59.7"
@@ -472,7 +472,7 @@
           "value": "#008eff",
           "comment": "58.6",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#008eff",
             "comment": "58.6"
@@ -495,7 +495,7 @@
           "value": "#74bdff",
           "comment": "74.4",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#74bdff",
             "comment": "74.4"
@@ -520,7 +520,7 @@
           "value": "#680001",
           "comment": "19.8",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#680001",
             "comment": "19.8"
@@ -543,7 +543,7 @@
           "value": "#900000",
           "comment": "29.2",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#900000",
             "comment": "29.2"
@@ -566,7 +566,7 @@
           "value": "#f14600",
           "comment": "55.2",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#f14600",
             "comment": "55.2"
@@ -589,7 +589,7 @@
           "value": "#ff7200",
           "comment": "64.4",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ff7200",
             "comment": "64.4"
@@ -612,7 +612,7 @@
           "value": "#ff8b00",
           "comment": "69.3",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ff8b00",
             "comment": "69.3"
@@ -637,7 +637,7 @@
           "value": "#5a0004",
           "comment": "16.4",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#5a0004",
             "comment": "16.4"
@@ -660,7 +660,7 @@
           "value": "#7f0023",
           "comment": "25.7",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#7f0023",
             "comment": "25.7"
@@ -683,7 +683,7 @@
           "value": "#d15761",
           "comment": "53.2",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#d15761",
             "comment": "53.2"
@@ -706,7 +706,7 @@
           "value": "#fc7d84",
           "comment": "67.3",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#fc7d84",
             "comment": "67.3"
@@ -729,7 +729,7 @@
           "value": "#ff9da3",
           "comment": "74.8",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ff9da3",
             "comment": "74.8"
@@ -754,7 +754,7 @@
           "value": "#002c37",
           "comment": "15.9",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#002c37",
             "comment": "15.9"
@@ -777,7 +777,7 @@
           "value": "#004a55",
           "comment": "28.3",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#004a55",
             "comment": "28.3"
@@ -800,7 +800,7 @@
           "value": "#0078a8",
           "comment": "47.3",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#0078A8",
             "comment": "47.3"
@@ -823,7 +823,7 @@
           "value": "#00808b",
           "comment": "48.6",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#00808b",
             "comment": "48.6"
@@ -846,7 +846,7 @@
           "value": "#16a0ab",
           "comment": "60.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#16a0ab",
             "comment": "60.1"
@@ -869,7 +869,7 @@
           "value": "#63d7e2",
           "comment": "80.0",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#63d7e2",
             "comment": "80.0"
@@ -894,7 +894,7 @@
           "value": "#002f00",
           "comment": "15.7",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#002f00",
             "comment": "15.7"
@@ -917,7 +917,7 @@
           "value": "#004d00",
           "comment": "27.6",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#004d00",
             "comment": "27.6"
@@ -940,7 +940,7 @@
           "value": "#006600",
           "comment": "36.9",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#006600",
             "comment": "36.9"
@@ -963,7 +963,7 @@
           "value": "#138500",
           "comment": "48.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#138500",
             "comment": "48.1"
@@ -986,7 +986,7 @@
           "value": "#46a500",
           "comment": "60.1",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#46a500",
             "comment": "60.1"
@@ -1009,7 +1009,7 @@
           "value": "#87dc00",
           "comment": "79.8",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#87dc00",
             "comment": "79.8"
@@ -1034,7 +1034,7 @@
           "value": "#240d6a",
           "comment": "13.8",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#240d6a",
             "comment": "13.8"
@@ -1057,7 +1057,7 @@
           "value": "#472b8b",
           "comment": "26.5",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#472b8b",
             "comment": "26.5"
@@ -1080,7 +1080,7 @@
           "value": "#8764cd",
           "comment": "50.3",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#8764cd",
             "comment": "50.3"
@@ -1103,7 +1103,7 @@
           "value": "#ae88f5",
           "comment": "64.3",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#ae88f5",
             "comment": "64.3"
@@ -1126,7 +1126,7 @@
           "value": "#dcb2ff",
           "comment": "78.6",
           "filePath": "src/tokens/global/color/base.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "#dcb2ff",
             "comment": "78.6"
@@ -1151,7 +1151,7 @@
       "base": {
         "value": "#111111",
         "filePath": "src/tokens/global/color/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.base.neutro.5.value}"
         },
@@ -1170,7 +1170,7 @@
       "secondary": {
         "value": "#3d3d3d",
         "filePath": "src/tokens/global/color/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.base.neutro.25.value}"
         },
@@ -1189,7 +1189,7 @@
       "tertiary": {
         "value": "#767676",
         "filePath": "src/tokens/global/color/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{color.base.neutro.50.value}"
         },
@@ -1208,7 +1208,7 @@
     },
     "primary": {
       "value": "#006dff",
-      "filePath": "src/tokens/theme/estatistica/color.tokens.cjs",
+      "filePath": "src/tokens/theme/estatistica/color-light.tokens.cjs",
       "isSource": true,
       "original": {
         "value": "{ color.base.azul.55 }"
@@ -1225,7 +1225,7 @@
     },
     "secondary": {
       "value": "#74bdff",
-      "filePath": "src/tokens/theme/estatistica/color.tokens.cjs",
+      "filePath": "src/tokens/theme/estatistica/color-light.tokens.cjs",
       "isSource": true,
       "original": {
         "value": "{ color.base.azul.75 }"
@@ -1243,7 +1243,7 @@
     "alt": {
       "contrast1": {
         "value": "#74bdff",
-        "filePath": "src/tokens/theme/estatistica/color.tokens.cjs",
+        "filePath": "src/tokens/theme/estatistica/color-light.tokens.cjs",
         "isSource": true,
         "original": {
           "value": "{ color.base.azul.75 }"
@@ -1262,7 +1262,7 @@
       },
       "contrast2": {
         "value": "#008eff",
-        "filePath": "src/tokens/theme/estatistica/color.tokens.cjs",
+        "filePath": "src/tokens/theme/estatistica/color-light.tokens.cjs",
         "isSource": true,
         "original": {
           "value": "{ color.base.azul.60 }"
@@ -1281,7 +1281,7 @@
       },
       "contrast3": {
         "value": "#006dff",
-        "filePath": "src/tokens/theme/estatistica/color.tokens.cjs",
+        "filePath": "src/tokens/theme/estatistica/color-light.tokens.cjs",
         "isSource": true,
         "original": {
           "value": "{ color.base.azul.55 }"
@@ -1300,7 +1300,7 @@
       },
       "contrast4": {
         "value": "#003adf",
-        "filePath": "src/tokens/theme/estatistica/color.tokens.cjs",
+        "filePath": "src/tokens/theme/estatistica/color-light.tokens.cjs",
         "isSource": true,
         "original": {
           "value": "{ color.base.azul.35 }"
@@ -1319,7 +1319,7 @@
       },
       "contrast5": {
         "value": "#0022b9",
-        "filePath": "src/tokens/theme/estatistica/color.tokens.cjs",
+        "filePath": "src/tokens/theme/estatistica/color-light.tokens.cjs",
         "isSource": true,
         "original": {
           "value": "{ color.base.azul.25 }"
@@ -1344,7 +1344,7 @@
         "sans": {
           "value": "Roboto, sans-serif",
           "filePath": "src/tokens/global/font/font.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "Roboto, sans-serif"
           },
@@ -1365,7 +1365,7 @@
         "monospace": {
           "value": "'Roboto Mono', monospace, 'courier new', serif",
           "filePath": "src/tokens/global/font/font.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "'Roboto Mono', monospace, 'courier new', serif"
           },
@@ -1386,7 +1386,7 @@
         "default": {
           "value": "Roboto, sans-serif",
           "filePath": "src/tokens/global/font/font.tokens.cjs",
-          "isSource": true,
+          "isSource": false,
           "original": {
             "value": "{ font.base.family.sans.value }"
           },
@@ -1410,7 +1410,7 @@
           "default": {
             "value": "common-ligatures",
             "filePath": "src/tokens/global/font/font.tokens.cjs",
-            "isSource": true,
+            "isSource": false,
             "original": {
               "value": "common-ligatures"
             },
@@ -1433,7 +1433,7 @@
           "abbreviation": {
             "value": "small-caps",
             "filePath": "src/tokens/global/font/font.tokens.cjs",
-            "isSource": true,
+            "isSource": false,
             "original": {
               "value": "small-caps"
             },
@@ -1458,7 +1458,7 @@
           "oldStyle": {
             "value": "oldstyle-nums proportional-nums",
             "filePath": "src/tokens/global/font/font.tokens.cjs",
-            "isSource": true,
+            "isSource": false,
             "original": {
               "value": "oldstyle-nums proportional-nums"
             },
@@ -1481,7 +1481,7 @@
           "lining": {
             "value": "lining-nums proportional-nums",
             "filePath": "src/tokens/global/font/font.tokens.cjs",
-            "isSource": true,
+            "isSource": false,
             "original": {
               "value": "lining-nums proportional-nums"
             },
@@ -1504,7 +1504,7 @@
           "tabular": {
             "value": "lining-nums tabular-nums",
             "filePath": "src/tokens/global/font/font.tokens.cjs",
-            "isSource": true,
+            "isSource": false,
             "original": {
               "value": "lining-nums tabular-nums"
             },
@@ -1527,7 +1527,7 @@
           "ordinal": {
             "value": "lining-nums ordinal",
             "filePath": "src/tokens/global/font/font.tokens.cjs",
-            "isSource": true,
+            "isSource": false,
             "original": {
               "value": "lining-nums ordinal"
             },
@@ -1550,7 +1550,7 @@
           "default": {
             "value": "oldstyle-nums proportional-nums",
             "filePath": "src/tokens/global/font/font.tokens.cjs",
-            "isSource": true,
+            "isSource": false,
             "original": {
               "value": "{ font.base.variant.numbers.oldStyle.value }"
             },
@@ -1578,7 +1578,7 @@
       "family": {
         "value": "Roboto, sans-serif",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.family.default.value }"
         },
@@ -1597,7 +1597,7 @@
       "variant": {
         "value": "common-ligatures lining-nums proportional-nums",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.variant.text.default.value } { font.base.variant.numbers.lining.value }"
         },
@@ -1618,7 +1618,7 @@
       "family": {
         "value": "Roboto, sans-serif",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.family.default.value }"
         },
@@ -1637,7 +1637,7 @@
       "variant": {
         "value": "common-ligatures oldstyle-nums proportional-nums",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.variant.text.default.value } { font.base.variant.numbers.default.value }"
         },
@@ -1658,7 +1658,7 @@
       "family": {
         "value": "Roboto, sans-serif",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.family.default.value }"
         },
@@ -1677,7 +1677,7 @@
       "variant": {
         "value": "common-ligatures lining-nums tabular-nums",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.variant.text.default.value } { font.base.variant.numbers.tabular.value }"
         },
@@ -1698,7 +1698,7 @@
       "family": {
         "value": "Roboto, sans-serif",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.family.default.value }"
         },
@@ -1717,7 +1717,7 @@
       "variant": {
         "value": "small-caps oldstyle-nums proportional-nums",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.variant.text.abbreviation.value } { font.base.variant.numbers.default.value }"
         },
@@ -1738,7 +1738,7 @@
       "family": {
         "value": "'Roboto Mono', monospace, 'courier new', serif",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.family.monospace.value }"
         },
@@ -1757,7 +1757,7 @@
       "variant": {
         "value": "common-ligatures lining-nums tabular-nums",
         "filePath": "src/tokens/global/font/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{ font.base.variant.text.default.value } { font.base.variant.numbers.tabular.value }"
         },
@@ -1781,7 +1781,7 @@
         "value": "1px",
         "comment": "the base size of the font",
         "filePath": "src/tokens/global/size/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "{size.font.medium.value}",
           "comment": "the base size of the font"
@@ -1802,7 +1802,7 @@
         "value": "0.75px",
         "comment": "the small size of the font",
         "filePath": "src/tokens/global/size/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "0.75",
           "comment": "the small size of the font"
@@ -1823,7 +1823,7 @@
         "value": "1px",
         "comment": "the medium size of the font",
         "filePath": "src/tokens/global/size/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "1",
           "comment": "the medium size of the font"
@@ -1844,7 +1844,7 @@
         "value": "2px",
         "comment": "the large size of the font",
         "filePath": "src/tokens/global/size/font.tokens.cjs",
-        "isSource": true,
+        "isSource": false,
         "original": {
           "value": "2",
           "comment": "the large size of the font"
