@@ -1,47 +1,118 @@
-import { html, LitElement } from "lit";
-import { customElement, property } from "lit/decorators.js";
-// import styles from './ordered-list.css?inline';
+import { html, LitElement, unsafeCSS } from "lit";
+import {
+  property,
+  customElement,
+  queryAssignedElements,
+} from "lit/decorators.js";
+import {
+  DEFAULT_OLIST_MARKER_TYPE,
+  type OListMarkerType,
+  isOListMarkerType,
+  getHTMLOListElementType,
+} from "./list-markers";
+import styles from "./ordered-list.css";
 
-const TAG_NAME = "cta-ordered-list";
-
-const ORDER_SYMBOLS = ['numeric', 'uppercase-letters', 'lowercase-letters'] as const;
-const DEFAULT_ORDER_SYMBOL = 'numeric';
-type OrderSymbol = typeof ORDER_SYMBOLS[number];
+export const TAG_NAME = "cta-ordered-list";
+export const LIST_CLASSNAME = "cta__ordered-list";
 
 declare global {
   interface HTMLElementTagNameMap {
-    [TAG_NAME]: OrderedListElement;
+    [TAG_NAME]: CTAOrderedListElement;
   }
 }
 
-export interface OrderedListElement extends HTMLElement {
-  type: 'ordered';
-  symbol: OrderSymbol;
+export interface CTAOrderedListElement
+  extends Omit<HTMLOListElement, "reversed" | "start" | "type"> {
+  "data-testid"?: string;
+  type?: OListMarkerType;
+  start?: number;
+  "keep-parent-counter"?: boolean;
 }
 
 @customElement(TAG_NAME)
-export class OrderedList extends LitElement {
-  // static styles = [styles] as unknown as CSSResultArray;
+export class CTAOrderedList extends LitElement {
+  static styles = unsafeCSS(styles);
 
-  @property({ type: String, reflect: true })
-  get type() {
-    return 'ordered';
+  @property({
+    type: String,
+    reflect: true,
+    converter(value: unknown): OListMarkerType {
+      if (isOListMarkerType(value)) {
+        return value;
+      }
+      return DEFAULT_OLIST_MARKER_TYPE;
+    },
+  })
+  type: OListMarkerType = DEFAULT_OLIST_MARKER_TYPE;
+
+  @property({ type: Number, reflect: true })
+  start: number | undefined;
+
+  @property({ type: Boolean, reflect: true, attribute: "keep-parent-counter" })
+  keepParentCounter = false;
+
+  @queryAssignedElements({ selector: "ol", flatten: false })
+  olElements: HTMLOListElement[] | undefined;
+
+  #setListType() {
+    const olType = getHTMLOListElementType(this.type);
+    this.olElements?.forEach(($ol) => {
+      $ol.setAttribute("type", olType);
+    });
   }
 
-  @property({ type: String })
-  symbol = DEFAULT_ORDER_SYMBOL;
+  #setListStart() {
+    this.olElements?.forEach(($ol) => {
+      if (this.start === undefined) {
+        $ol.removeAttribute("start");
+        $ol.style.counterReset = "";
+      } else {
+        $ol.setAttribute("start", this.start.toString());
+        $ol.style.counterReset = `list-item ${this.start - 1}`;
+      }
+    });
+  }
 
-  @property({ type: String, attribute: true, reflect: true })
-  id = "";
+  #setListCounters() {
+    this.olElements?.forEach(($ol) => {
+      if (this.keepParentCounter) {
+        $ol.setAttribute("keep-parent-counter", "");
+      } else {
+        $ol.removeAttribute("keep-parent-counter");
+      }
+    });
+  }
 
-  @property({ type: String, attribute: "data-testid", reflect: true })
-  dataTestId = "";
+  #setListBaseClassname() {
+    this.olElements?.forEach(($ol) => {
+      $ol.classList.add(LIST_CLASSNAME);
+    });
+  }
 
-  render() {
-    return html`
-      <ol part="list">
-        <slot></slot>
-      </ol>
-    `
+  #onSlotChanged() {
+    this.#setListType();
+    this.#setListStart();
+    this.#setListCounters();
+    this.#setListBaseClassname();
+  }
+
+  protected override willUpdate(
+    changedProperties: Map<PropertyKey, unknown>
+  ): void {
+    if (changedProperties.has("type")) {
+      this.#setListType();
+    }
+
+    if (changedProperties.has("start")) {
+      this.#setListStart();
+    }
+
+    if (changedProperties.has("keepParentCounter")) {
+      this.#setListCounters();
+    }
+  }
+
+  protected override render() {
+    return html`<slot @slotchange=${this.#onSlotChanged}></slot>`;
   }
 }

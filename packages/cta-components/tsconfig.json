@@ -5,5 +5,6 @@
     "baseUrl": "src",
     "outDir": "types"
   },
+  "exclude": ["src/**/*.stories.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
