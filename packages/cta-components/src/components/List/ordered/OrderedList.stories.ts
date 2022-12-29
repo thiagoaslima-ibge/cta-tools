@@ -4,7 +4,7 @@ import { ifDefined } from 'lit/directives/if-defined.js';
 
 import './OrderedList';
 import { type CTAOrderedListElement } from './OrderedList';
-import { OLIST_MARKER_TYPES } from './list-markers';
+import { ORDERED_LIST_MARKER_TYPES } from './list-markers';
 
 const meta: Meta<CTAOrderedListElement> = {
   title: 'Example/OrderedList',
@@ -50,7 +50,7 @@ const meta: Meta<CTAOrderedListElement> = {
   argTypes: {
     type:  { 
       control: { type: 'select' },
-      options: OLIST_MARKER_TYPES,
+      options: ORDERED_LIST_MARKER_TYPES,
     },
     start: {
       control: { type: 'number', step: 1, min: 1, max: Number.MAX_SAFE_INTEGER }
@@ -72,23 +72,3 @@ export const Primary: Story = {
     "keep-parent-counter": true,
   },
 };
-
-// export const Secondary: Story = {
-//   args: {
-//     label: 'Button',
-//   },
-// };
-
-// export const Large: Story = {
-//   args: {
-//     size: 'large',
-//     label: 'Button',
-//   },
-// };
-
-// export const Small: Story = {
-//   args: {
-//     size: 'small',
-//     label: 'Button',
-//   },
-// };

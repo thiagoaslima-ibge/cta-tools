@@ -5,9 +5,9 @@ import {
   queryAssignedElements,
 } from "lit/decorators.js";
 import {
-  DEFAULT_OLIST_MARKER_TYPE,
+  DEFAULT_ORDERED_LIST_MARKER_TYPE,
   type OListMarkerType,
-  isOListMarkerType,
+  isOrderedListMarkerType,
   getHTMLOListElementType,
 } from "./list-markers";
 import styles from "./ordered-list.css";
@@ -37,13 +37,13 @@ export class CTAOrderedList extends LitElement {
     type: String,
     reflect: true,
     converter(value: unknown): OListMarkerType {
-      if (isOListMarkerType(value)) {
+      if (isOrderedListMarkerType(value)) {
         return value;
       }
-      return DEFAULT_OLIST_MARKER_TYPE;
+      return DEFAULT_ORDERED_LIST_MARKER_TYPE;
     },
   })
-  type: OListMarkerType = DEFAULT_OLIST_MARKER_TYPE;
+  type: OListMarkerType = DEFAULT_ORDERED_LIST_MARKER_TYPE;
 
   @property({ type: Number, reflect: true })
   start: number | undefined;
