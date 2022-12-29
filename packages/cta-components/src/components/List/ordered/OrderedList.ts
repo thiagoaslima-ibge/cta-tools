@@ -6,7 +6,7 @@ import {
 } from "lit/decorators.js";
 import {
   DEFAULT_ORDERED_LIST_MARKER_TYPE,
-  type OListMarkerType,
+  type OrderedListMarkerType,
   isOrderedListMarkerType,
   getHTMLOListElementType,
 } from "./list-markers";
@@ -24,7 +24,7 @@ declare global {
 export interface CTAOrderedListElement
   extends Omit<HTMLOListElement, "reversed" | "start" | "type"> {
   "data-testid"?: string;
-  type?: OListMarkerType;
+  type?: OrderedListMarkerType;
   start?: number;
   "keep-parent-counter"?: boolean;
 }
@@ -36,14 +36,14 @@ export class CTAOrderedList extends LitElement {
   @property({
     type: String,
     reflect: true,
-    converter(value: unknown): OListMarkerType {
+    converter(value: unknown): OrderedListMarkerType {
       if (isOrderedListMarkerType(value)) {
         return value;
       }
       return DEFAULT_ORDERED_LIST_MARKER_TYPE;
     },
   })
-  type: OListMarkerType = DEFAULT_ORDERED_LIST_MARKER_TYPE;
+  type: OrderedListMarkerType = DEFAULT_ORDERED_LIST_MARKER_TYPE;
 
   @property({ type: Number, reflect: true })
   start: number | undefined;

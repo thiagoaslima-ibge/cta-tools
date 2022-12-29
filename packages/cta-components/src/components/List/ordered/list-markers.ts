@@ -1,4 +1,4 @@
-export type OListMarkerType = typeof ORDERED_LIST_MARKER_TYPES[number];
+export type OrderedListMarkerType = typeof ORDERED_LIST_MARKER_TYPES[number];
 
 export const ORDERED_LIST_MARKER_TYPES = [
   "numeric",
@@ -10,7 +10,7 @@ export const ORDERED_LIST_MARKER_TYPES = [
 
 export const DEFAULT_ORDERED_LIST_MARKER_TYPE = "numeric";
 
-export function isOrderedListMarkerType(value: unknown): value is OListMarkerType {
+export function isOrderedListMarkerType(value: unknown): value is OrderedListMarkerType {
   if (typeof value !== 'string') {
     return false;
   }
@@ -24,7 +24,7 @@ export function isOrderedListMarkerType(value: unknown): value is OListMarkerTyp
   return false;
 }
 
-const olTypeMap: Record<OListMarkerType, HTMLOListElement["type"]> = {
+const olTypeMap: Record<OrderedListMarkerType, HTMLOListElement["type"]> = {
   numeric: "1",
   "lowercase-letters": "a",
   "uppercase-letters": "A",
