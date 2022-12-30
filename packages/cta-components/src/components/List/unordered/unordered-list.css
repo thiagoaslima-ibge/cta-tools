@@ -1,0 +1,32 @@
+cta-unordered-list {
+  display: contents;
+}
+
+cta-unordered-list :where(.cta__unordered-list) {
+  margin: -0.5rem 0 1rem 0;
+  padding: 0 0 0 1.5rem; 
+  list-style-position: outside; 
+}
+
+cta-unordered-list :where(.cta__unordered-list) :where(.cta__unordered-list) {
+  margin: 0;
+}
+
+cta-unordered-list :where(.cta__unordered-list) li::marker {
+  color: var(--list-item-marker-color, var(--color-alt-contrast3, var(--color-text-default, inherit)));
+  display: block;
+  width: 1.588em;
+}
+
+cta-unordered-list :where(.cta__unordered-list__disc-marker) {
+  list-style-type: disc;
+}
+cta-unordered-list :where(.cta__unordered-list__circle-marker) {
+  list-style-type: circle;
+}
+cta-unordered-list :where(.cta__unordered-list__square-marker) {
+  list-style-type: square;
+}
+cta-unordered-list :where(.cta__unordered-list__custom-marker) {
+  list-style-type: attr('data-marker-type');
+}
