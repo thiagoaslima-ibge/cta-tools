@@ -1,6 +1,6 @@
 export type UnorderedListMarkerType = typeof UNORDERED_LIST_MARKER_TYPES[number];
 
-export const UNORDERED_LIST_MARKER_TYPES = ["disc", "circle", "square"] as const;
+export const UNORDERED_LIST_MARKER_TYPES = ["disc", "circle", "square", "none"] as const;
 
 export const DEFAULT_UNORDERED_LIST_MARKER_TYPE = "square";
 
@@ -18,23 +18,25 @@ export function isUnorderedListMarkerType(value: unknown): value is UnorderedLis
   return false;
 }
 
-const classNameMap = new Map([
+const classNameMap = new Map<UnorderedListMarkerType, string>([
   ["disc", 'cta__unordered-list__disc-marker'],
   ["circle", 'cta__unordered-list__circle-marker'],
   ["square", 'cta__unordered-list__square-marker'],
-  ["__other__", 'cta__unordered-list__custom-marker']
+  ["none", 'cta__unordered-list__no-marker'],
 ]);
+
+const customMarkerClassname = 'cta__unordered-list__custom-marker';
 
 
 export function getMarkerClassname(markerType: string): string {
-  if (classNameMap.has(markerType)) {
+  if (isUnorderedListMarkerType(markerType)) {
     return classNameMap.get(markerType)!;
   }
-  return classNameMap.get("__other__")!
+  return customMarkerClassname;
 }
 
 export function getAllMarkerClassnames(): string[] {
-  const response = [];
+  const response = [customMarkerClassname];
 
   for (const classname of classNameMap.values()) {
     response.push(classname);

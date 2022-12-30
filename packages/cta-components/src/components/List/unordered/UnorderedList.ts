@@ -64,13 +64,14 @@ export class CTAOrderedList extends LitElement {
       if (this.type) {
         $ul.classList.add(getMarkerClassname(this.type));
         $ul.removeAttribute("data-marker-type");
-        $ul.style.listStyleType = "";
+        if ($ul.style.listStyleType) {
+          $ul.style.listStyleType = "";
+        }
         return;
       } 
       
       if (this.customType) {
         $ul.setAttribute("data-marker-type", this.customType);
-        debugger;
         $ul.style.listStyleType = `"${this.customType} "`;
       } else {
         $ul.removeAttribute("data-marker-type");
