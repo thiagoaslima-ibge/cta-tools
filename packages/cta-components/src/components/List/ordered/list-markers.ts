@@ -24,17 +24,21 @@ export function isOrderedListMarkerType(value: unknown): value is OrderedListMar
   return false;
 }
 
-const olTypeMap: Record<OrderedListMarkerType, HTMLOListElement["type"]> = {
-  numeric: "1",
-  "lowercase-letters": "a",
-  "uppercase-letters": "A",
-  "lowercase-roman": "i",
-  "uppercase-roman": "I",
+const classNameMap: Record<OrderedListMarkerType, string> = {
+  numeric: "cta__ordered-list__numeric-marker",
+  "lowercase-letters": "cta__ordered-list__lowercase-letters-marker",
+  "uppercase-letters": "cta__ordered-list__uppercase-letters-marker",
+  "lowercase-roman": "cta__ordered-list__lowercase-roman-marker",
+  "uppercase-roman": "cta__ordered-list__uppercase-roman-marker",
 };
 
-export function getHTMLOListElementType(type: string): HTMLOListElement["type"] {
-  if (isOrderedListMarkerType(type)) {
-    return olTypeMap[type];
+export function getMarkerClassname(markerType: string): string {
+  if (isOrderedListMarkerType(markerType)) {
+    return classNameMap[markerType];
   }
-  return olTypeMap[DEFAULT_ORDERED_LIST_MARKER_TYPE];
+  return classNameMap[DEFAULT_ORDERED_LIST_MARKER_TYPE];
+}
+
+export function getAllMarkerClassnames(): string[] {
+  return Object.values(classNameMap);
 }

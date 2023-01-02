@@ -8,12 +8,13 @@ import {
   DEFAULT_ORDERED_LIST_MARKER_TYPE,
   type OrderedListMarkerType,
   isOrderedListMarkerType,
-  getHTMLOListElementType,
+  getAllMarkerClassnames,
+  getMarkerClassname,
 } from "./list-markers";
 import styles from "./ordered-list.css";
 
-export const TAG_NAME = "cta-ordered-list";
-export const LIST_CLASSNAME = "cta__ordered-list";
+const TAG_NAME = "cta-ordered-list";
+const LIST_CLASSNAME = "cta__ordered-list";
 
 declare global {
   interface HTMLElementTagNameMap {
@@ -55,9 +56,9 @@ export class CTAOrderedList extends LitElement {
   olElements: HTMLOListElement[] | undefined;
 
   #setListType() {
-    const olType = getHTMLOListElementType(this.type);
     this.olElements?.forEach(($ol) => {
-      $ol.setAttribute("type", olType);
+      $ol.classList.remove(...getAllMarkerClassnames());
+      $ol.classList.add(getMarkerClassname(this.type));
     });
   }
 

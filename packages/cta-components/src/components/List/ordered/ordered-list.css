@@ -18,19 +18,19 @@ cta-ordered-list :where(.cta__ordered-list) li::marker {
   display: block;
   width: 1.588em;
 }
-cta-ordered-list :where(.cta__ordered-list[type="1"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__numeric-marker) li::marker {
   content: "" counter(list-item, decimal) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[type="a"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__lowercase-letters-marker) li::marker {
   content: "" counter(list-item, lower-alpha) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[type="A"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__uppercase-letters-marker) li::marker {
   content: "" counter(list-item, upper-alpha) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[type="i"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__lowercase-roman-marker) li::marker {
   content: "" counter(list-item, lower-roman) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[type="I"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__uppercase-roman-marker) li::marker {
   content: "" counter(list-item, upper-roman) ". ";
 }
 
@@ -38,18 +38,18 @@ cta-ordered-list :where(.cta__ordered-list[type="I"]) li::marker {
 cta-ordered-list :where(.cta__ordered-list[keep-parent-counter]) li::marker {
   content: "" counters(list-item, '.') ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[keep-parent-counter][type="1"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__numeric-marker[keep-parent-counter]) li::marker {
   content: "" counters(list-item, '.', decimal) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[keep-parent-counter][type="a"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__lowercase-letters-marker[keep-parent-counter]) li::marker {
   content: "" counters(list-item, '.', lower-alpha) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[keep-parent-counter][type="A"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__uppercase-letters-marker[keep-parent-counter]) li::marker {
   content: "" counters(list-item, '.', upper-alpha) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[keep-parent-counter][type="i"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__lowercase-roman-marker[keep-parent-counter]) li::marker {
   content: "" counters(list-item, '.', lower-roman) ". ";
 }
-cta-ordered-list :where(.cta__ordered-list[keep-parent-counter][type="I"]) li::marker {
+cta-ordered-list :where(.cta__ordered-list__uppercase-roman-marker[keep-parent-counter]) li::marker {
   content: "" counters(list-item, '.', upper-roman) ". ";
 }

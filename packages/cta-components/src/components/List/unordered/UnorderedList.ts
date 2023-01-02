@@ -14,8 +14,8 @@ import {
   type UnorderedListMarkerType,
 } from "./list-markers";
 
-export const TAG_NAME = "cta-unordered-list";
-export const LIST_CLASSNAME = "cta__unordered-list";
+const TAG_NAME = "cta-unordered-list";
+const LIST_CLASSNAME = "cta__unordered-list";
 
 declare global {
   interface HTMLElementTagNameMap {
@@ -31,7 +31,7 @@ export interface CTAUnorderedListElement
 }
 
 @customElement(TAG_NAME)
-export class CTAOrderedList extends LitElement {
+export class CTAUnorderedList extends LitElement {
   static styles = unsafeCSS(styles);
 
   @property({

@@ -135,7 +135,7 @@ export class IconRegister {
       .fetch(icon.path)
       .then((response) => response.text())
       .then((text) =>
-      DOMPurify.sanitize(text, {
+        DOMPurify.sanitize(text, {
           USE_PROFILES: { svg: true, svgFilters: true },
         })
       )
