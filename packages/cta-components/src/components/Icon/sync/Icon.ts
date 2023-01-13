@@ -5,7 +5,7 @@ import { unsafeSVG } from "lit/directives/unsafe-svg.js";
 import { IconName } from "./iconsMap";
 import { iconSyncService } from "./IconService";
 
-const TAG_NAME = "cta-icon";
+const TAG_NAME = "cta-sync-icon";
 
 declare global {
   interface HTMLElementTagNameMap {

@@ -26,7 +26,7 @@ export interface IconElement extends HTMLElement {
 }
 
 @customElement(TAG_NAME)
-export class Icon extends LitElement {
+export class CTAIcon extends LitElement {
   #iconName: IconName | "" = "";
   #iconMarkup = "";
   #unsubscribe: VoidFunction = () => {};

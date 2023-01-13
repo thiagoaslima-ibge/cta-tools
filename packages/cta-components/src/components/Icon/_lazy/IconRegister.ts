@@ -6,7 +6,8 @@ import { IconName, iconsMap } from "./iconsMap";
 
 enum IconFetchState {
   PENDING,
-  DONE,
+  COMPLETED,
+  REJECTED
 }
 
 enum IconFetchResult {
@@ -56,7 +57,9 @@ export class IconRegister {
 
     if (icon.fecthState === IconFetchState.DONE) {
       if (icon.fetchResult === IconFetchResult.FAIL) {
-        return this.#fetchIcon(iconName);
+        return Promise.reject(
+          fail()
+        );
       }
 
       return Promise.resolve(
@@ -122,6 +125,7 @@ export class IconRegister {
               iconUrl: iconItem.iconUrl,
               fecthState: IconFetchState.DONE,
               fetchResult: IconFetchResult.FAIL,
+              reason: Error,
             } as const);
 
         this.#icons.set(iconName, item);
