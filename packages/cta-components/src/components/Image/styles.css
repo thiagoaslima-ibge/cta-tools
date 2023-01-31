@@ -1,0 +1,24 @@
+:host {
+    display: inline-block;
+}
+:host img:not([width]):not([height]) {
+    max-width: 100%;
+}
+
+:host(.invalid) {
+    position: relative;
+    background-color: red;
+}
+:host(.invalid)::after {
+    content: "This image has no alt content. Either add an alt description or a no-alt attribute.";
+    background-color: black;
+    color: rgb(221, 221, 221);
+    padding: 5px;
+    bottom: 0;
+    max-width: 80%;
+    position: absolute;
+    left: 0;
+}
+:host(.invalid) img {
+    opacity: 0.5;
+}

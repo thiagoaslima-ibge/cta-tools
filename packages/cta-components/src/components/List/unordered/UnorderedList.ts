@@ -17,12 +17,6 @@ import {
 const TAG_NAME = "cta-unordered-list";
 const LIST_CLASSNAME = "cta__unordered-list";
 
-declare global {
-  interface HTMLElementTagNameMap {
-    [TAG_NAME]: CTAUnorderedListElement;
-  }
-}
-
 export interface CTAUnorderedListElement
   extends Omit<HTMLOListElement, "reversed" | "start" | "type"> {
   "data-testid"?: string;
@@ -45,12 +39,12 @@ export class CTAUnorderedList extends LitElement {
     },
   })
   type: UnorderedListMarkerType = DEFAULT_UNORDERED_LIST_MARKER_TYPE;
-  
+
   @property({
     type: String,
     reflect: true,
   })
-  customType: string | undefined
+  customType: string | undefined;
 
   @queryAssignedElements({ selector: "ul", flatten: false })
   ulElements: HTMLUListElement[] | undefined;
@@ -68,8 +62,8 @@ export class CTAUnorderedList extends LitElement {
           $ul.style.listStyleType = "";
         }
         return;
-      } 
-      
+      }
+
       if (this.customType) {
         $ul.setAttribute("data-marker-type", this.customType);
         $ul.style.listStyleType = `"${this.customType} "`;
@@ -105,5 +99,12 @@ export class CTAUnorderedList extends LitElement {
 
   protected override render() {
     return html`<slot @slotchange=${this.#onSlotChanged}></slot>`;
+  }
+}
+
+declare global {
+  // eslint-disable-next-line no-unused-vars
+  interface HTMLElementTagNameMap {
+    [TAG_NAME]: CTAUnorderedListElement;
   }
 }

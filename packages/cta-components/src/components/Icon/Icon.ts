@@ -1,43 +1,68 @@
-import { html, LitElement, nothing, PropertyValues } from "lit";
+import { CTAElement } from "@components/CTAElement";
+import { nothing, unsafeCSS } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
-import { until } from "lit/directives/until.js";
+import { unsafeSVG } from "lit/directives/unsafe-svg.js";
 import { when } from "lit/directives/when.js";
-import { isString } from "lodash";
-import { CTAIconServiceController } from "./controllers/CTAIconServiceController";
+import isString from "lodash/isString";
 
-const TAG_NAME = 'cta-icon-2';
+import { CTAIconServiceController } from "./CTAIconServiceController";
+import styles from './styles.css?inline';
+
+const TAG_NAME = 'cta-icon';
+
+const STYLE_PROPERTIES = [
+  'fill',
+  'width',
+  'height',
+];
 
 @customElement(TAG_NAME)
-export class CtaIconElement extends LitElement {
-  @property({ type: String })
-  id = "";
+export class CTAIconElement extends CTAElement {
+  static get styles() {
+    return unsafeCSS(styles);
+  }
 
   @property({ type: String })
   name = "";
 
-  @state()
-  private iconService = new CTAIconServiceController(this);
+  @property({ type: String })
+  width = "1em";
+  
+  @property({ type: String })
+  height = "1em";
+  
+  @property({ type: String })
+  fill = "inherit";
 
   @state()
-  iconMarkup?: string | Promise<string>;
+  iconMarkup?: string;
 
-  willUpdate(changedProperties: PropertyValues): void {
-    if (changedProperties.has("name")) {
+  
+  constructor() {
+    super();
+    new CTAIconServiceController(this);
+  }
+
+  protected updated(changedProperties: Map<PropertyKey, unknown>): void {
+    for (const prop of STYLE_PROPERTIES) {
+      if (changedProperties.has(prop)) {
+        // @ts-expect-error prop exists on style and on the component
+        this.style[prop] = this[prop];
+      }
     }
   }
 
   render() {
-
     return when(
       isString(this.iconMarkup),
-      () => html`${this.iconMarkup}`,
-      () => until(this.iconMarkup, nothing)
+      () => unsafeSVG(this.iconMarkup),
+      () => nothing
     )
   }
 }
 
 declare global {
   interface HTMLElementTagNameMap {
-    [TAG_NAME]: CtaIconElement;
+    [TAG_NAME]: CTAIconElement;
   }
 }

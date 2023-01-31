@@ -16,12 +16,6 @@ import styles from "./ordered-list.css";
 const TAG_NAME = "cta-ordered-list";
 const LIST_CLASSNAME = "cta__ordered-list";
 
-declare global {
-  interface HTMLElementTagNameMap {
-    [TAG_NAME]: CTAOrderedListElement;
-  }
-}
-
 export interface CTAOrderedListElement
   extends Omit<HTMLOListElement, "reversed" | "start" | "type"> {
   "data-testid"?: string;
@@ -115,5 +109,12 @@ export class CTAOrderedList extends LitElement {
 
   protected override render() {
     return html`<slot @slotchange=${this.#onSlotChanged}></slot>`;
+  }
+}
+
+declare global {
+  // eslint-disable-next-line no-unused-vars
+  interface HTMLElementTagNameMap {
+    [TAG_NAME]: CTAOrderedListElement;
   }
 }

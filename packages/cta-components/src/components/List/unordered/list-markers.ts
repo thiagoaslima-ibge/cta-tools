@@ -30,7 +30,8 @@ const customMarkerClassname = 'cta__unordered-list__custom-marker';
 
 export function getMarkerClassname(markerType: string): string {
   if (isUnorderedListMarkerType(markerType)) {
-    return classNameMap.get(markerType)!;
+    const value = classNameMap.get(markerType);
+    return value ?? ''
   }
   return customMarkerClassname;
 }

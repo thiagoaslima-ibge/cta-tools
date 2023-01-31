@@ -7,12 +7,37 @@
     <title>Vite + Lit + TS</title>
     <link rel="stylesheet" href="./src/index.css" />
     <script type="module" src="/src/index.ts"></script>
-    <script>
-      function log() { console.log('hi'); }
+    <script type="module">
+      __cta__.iconService.setIconsPath('/icons');
     </script>
   </head>
   <body>
-    <cta-icon style="width: 50px" name="close-circle"></cta-icon>
-    <cta-icon style="width: 50px" name="chevron-down"></cta-icon>
+    <cta-google-analytics></cta-google-analytics>
+    <cta-row>
+      <cta-column xs="5em">Column 1</cta-column>
+      <cta-column xs="2">Column 2</cta-column>
+      <cta-column xs="1">Column 3</cta-column>
+    </cta-row>
+    <cta-icon name="close-circle"></cta-icon>
+    <cta-icon name="close-circle"></cta-icon>
+    <cta-icon name="chevron-down"></cta-icon>
+    <cta-icon name="vite"></cta-icon>
+    <cta-icon name="close-circle"></cta-icon>
+    <cta-image src="https://picsum.photos/id/1077/350/200"></cta-image>
+    <cta-image src="https://picsum.photos/id/1077/350/200" no-alt></cta-image>
+    <cta-backdrop id="backdrop"></cta-backdrop>
+    <cta-modal id="modal" title="Modal title"></cta-modal>
+
+    <button id="btn1">Mostrar backdrop</button>
+    <button id="btn2">Abrir modal</button>
+
+    <script type="module">
+      const btn1 = document.querySelector("#btn1");
+      const btn2 = document.querySelector("#btn2");
+      const backdropEl = document.querySelector("#backdrop");
+      const modalEl = document.querySelector("#modal");
+      btn1.onclick = () => { backdropEl.open = true; }
+      btn2.onclick = () => { modalEl.open = true; }
+    </script>
   </body>
 </html>

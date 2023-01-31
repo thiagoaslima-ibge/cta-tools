@@ -3,7 +3,15 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "baseUrl": "src",
-    "outDir": "types"
+    "outDir": "types",
+    "typeRoots": [
+      "global.d.ts"
+    ],
+    "paths": {
+      "@components/*": ["components/*"],
+      "@controllers/*": ["controllers/*"],
+      "@lib/*": ["lib/*"],
+    }
   },
   "exclude": ["src/**/*.stories.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
