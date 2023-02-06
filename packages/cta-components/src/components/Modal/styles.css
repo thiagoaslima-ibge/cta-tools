@@ -27,7 +27,6 @@ cta-modal::part(backdrop) {
 }
 
 cta-modal::part(modal) {
-    max-width: 80%;
+    max-width: clamp(50%, 75%, 90%);
     background-color: azure;
-    z-index: 2;
 }

@@ -1,6 +1,6 @@
 import "@components/Backdrop/Backdrop";
 
-import { html, nothing, PropertyValueMap, unsafeCSS } from "lit";
+import { html, nothing, unsafeCSS } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { when } from "lit/directives/when.js";
 
